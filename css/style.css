@@ -66,9 +66,15 @@ p {
   width: 350px;
   height: 120px;
   background-color: #e83a93;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 
 }
 .pink_btn a{
@@ -100,7 +106,9 @@ footer h6 {
   opacity: .5;
 }
 .lg_table {
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 #header_lg {
   padding: 0.1px;
@@ -148,16 +156,21 @@ table tr:nth-child(4) td:nth-child(3){
  position: relative;
 }
 .social_line {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .header_social_icon .social_line:nth-child(4){
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .header_social_icon .social_line:nth-child(4) .rhombus_mini {
   margin: 0 5px;
 }
 .header_social_icon .social_line:nth-child(3){
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .header_social_icon .social_line:nth-child(2) .rhombus_mini{
   margin-left: 38%;
@@ -171,7 +184,9 @@ table tr:nth-child(4) td:nth-child(3){
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%) rotate(45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+      -ms-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
 }
 .rhombus_mini a{
   color: #fff;
@@ -186,7 +201,9 @@ table tr:nth-child(4) td:nth-child(3){
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%) rotate(45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+      -ms-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
 }
 .nav_click h4{
   font-size: 24px;
@@ -208,7 +225,9 @@ h1 {
 }
 .rhombus_img {
   background: url(../img/1.png) center center no-repeat;
-  transform: rotate(45deg) scale(1.4);
+  -webkit-transform: rotate(45deg) scale(1.4);
+      -ms-transform: rotate(45deg) scale(1.4);
+          transform: rotate(45deg) scale(1.4);
   width: 100%;
   height: 100%;
 }
@@ -352,7 +371,9 @@ h1 {
   margin-top: 100px;
   background-color: #fff;
   border: 3px solid #e83a93;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   position: relative;
 }
 .what_info {
@@ -360,7 +381,9 @@ h1 {
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%) rotate(-45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+      -ms-transform: translate(-50%, -50%) rotate(-45deg);
+          transform: translate(-50%, -50%) rotate(-45deg);
 }
 .what_border:hover {
   background-color: #e83a93;
@@ -386,9 +409,15 @@ h1 {
   position: relative !important;
 }
 .carousel_about {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 50px;
 }
 .carousel-indicators {
@@ -402,7 +431,9 @@ h1 {
   margin: 0 20px !important;
   border: none;
   border-radius: 0 !important;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   
 }
 .carousel_about li:hover {
@@ -426,7 +457,9 @@ h1 {
   height: 100px;
   border: 2px solid #aaa;
   position: relative;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   margin-left: 10px;
 }
 .services_icon:hover {
@@ -437,7 +470,9 @@ h1 {
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%) rotate(-45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+      -ms-transform: translate(-50%, -50%) rotate(-45deg);
+          transform: translate(-50%, -50%) rotate(-45deg);
   font-size: 40px;
 }
 .services_info {
@@ -476,6 +511,8 @@ h1 {
   color: #fff;
 }
 .our_feature{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .feature_info {
@@ -497,13 +534,14 @@ h1 {
   margin: 200px 0;
 }
 .team_img {
-  clip-path: polygon(50% 0,100% 50%, 50% 100%, 0 50%);
+  -webkit-clip-path: polygon(50% 0,100% 50%, 50% 100%, 0 50%);
+          clip-path: polygon(50% 0,100% 50%, 50% 100%, 0 50%);
   width: 350px;
   height: 350px;
 }
 .team_info h5{
   font-size: 24px;
-  letter-spacing: 1.75px
+  letter-spacing: 1.75px;
   line-height: 36px;
   color: #e83a93;
   margin-top: 20px;
@@ -539,14 +577,25 @@ h1 {
   position:absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 120px;
   height: 120px;
   background-color: #e83a93;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  clip-path: polygon(50% 0,100% 50%, 50% 100%, 0 50%);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-clip-path: polygon(50% 0,100% 50%, 50% 100%, 0 50%);
+          clip-path: polygon(50% 0,100% 50%, 50% 100%, 0 50%);
+  -webkit-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
   transition: all .5s ease-out;
 }
 .post_content:hover .icon_post_hover {
@@ -582,8 +631,11 @@ h1 {
 /*------------------------ SKILLS ------------------------*/
 .skills_info {
   margin: 200px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .skill_part{
   width: 20%;
@@ -613,11 +665,19 @@ h1 {
   top: 0;
   width: 100%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #e83a93;
   opacity: 0;
+  -webkit-transition: all .5s ease-in;
+  -o-transition: all .5s ease-in;
   transition: all .5s ease-in;
 }
 .projects_img_hover_black a{
@@ -640,9 +700,16 @@ h1 {
 }
 .prise_info {
   background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .prise_info h5 {
   font-size: 30px;
@@ -699,9 +766,15 @@ h1 {
 }
 .mail_sub {
   margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .mail_sub input {
   font-size: 24px;
